@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "caracters_types",
+  "info": {
+    "singularName": "caracters-type",
+    "pluralName": "caracters-types",
+    "displayName": "caractersTypes"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "required": true,
+      "unique": true
+    }
+  }
+}

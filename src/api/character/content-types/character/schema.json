@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "characters",
+  "info": {
+    "singularName": "character",
+    "pluralName": "characters",
+    "displayName": "characters",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 128,
+      "unique": true,
+      "required": true
+    },
+    "born": {
+      "type": "date"
+    },
+    "die": {
+      "type": "date"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "caracters_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::caracters-type.caracters-type"
+    },
+    "relations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::character.character"
+    }
+  }
+}
