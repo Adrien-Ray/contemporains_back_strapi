@@ -25,9 +25,6 @@
     "die": {
       "type": "date"
     },
-    "desc": {
-      "type": "text"
-    },
     "caracters_types": {
       "type": "relation",
       "relation": "oneToMany",
@@ -37,6 +34,19 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::character.character"
+    },
+    "wikipedia": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 512
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "portrait": {
+      "type": "string",
+      "maxLength": 1024,
+      "minLength": 4
     }
   }
 }
