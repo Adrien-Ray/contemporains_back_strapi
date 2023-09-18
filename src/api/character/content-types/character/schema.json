@@ -47,6 +47,16 @@
       "type": "string",
       "maxLength": 1024,
       "minLength": 4
+    },
+    "year_born": {
+      "type": "integer",
+      "max": 9999,
+      "min": -50000
+    },
+    "year_die": {
+      "type": "integer",
+      "max": 9999,
+      "min": -50000
     }
   }
 }
