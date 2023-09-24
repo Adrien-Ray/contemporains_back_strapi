@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "custom_settings",
+  "info": {
+    "singularName": "custom-setting",
+    "pluralName": "custom-settings",
+    "displayName": "customSettings"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content_landing": {
+      "type": "richtext"
+    }
+  }
+}
