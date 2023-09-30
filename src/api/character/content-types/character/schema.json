@@ -57,6 +57,11 @@
       "type": "integer",
       "max": 9999,
       "min": -50000
+    },
+    "research_his_relations": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
